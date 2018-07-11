@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div style={styles.container}>
-        <h1 style={styles.title}>Las tecnologias del Frontes</h1>
+        <h1 style={styles.title}>Las tecnologias del Frontend</h1>
         <ul style={styles.list}>
           {this.state.list.map(info => <li>{info}</li>)}
         </ul>
